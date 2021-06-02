@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*General Styles*/
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    max-width: 100%;
+    text-decoration:none;
+}
+
+html{
+    font-size:62.5%;
+}
+
+body{
+    line-height: 1.5;
+    font-size:1.6rem;
+    color: #4f4f4f;
+    font-family: 'Roboto Mono', monospace;
+}
+
+strong{
+    font-weight: bold;
+}
+
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 8rem;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+section{
+    padding: 4% 0;
+}
+
+/*Header Section Styles*/
+
+nav{
+    padding: 2% 0;
+}
+
+nav a{
+    display:inline-block;
+    padding: 1% 0;
+    width: 10%;
+    border-radius: 10px;
+    text-align: center;
+    color:#fff;
+
+}
+
+.orange{
+    background-color:#FF764E;
+    margin-left:20%;
+}
+
+.blue{
+    background-color:#5ED3EB;
+    margin: 0 10%;
+}
+
+.yellow{
+    background-color:#FFCD69;
+    margin-right: 20%;
+}
+
+/*Top Section Styles*/
+
+.top{
+    position: relative;
+}
+
+.top p{
+    font-size: 2rem;
+    margin-top: 2vh;
+}
+
+.left img{
+    border-radius: 50%;
+    width: 50%;
+}
+
+.left, .right{
+    display: inline-block;
+    text-align: center;
+}
+
+.left{
+    width: 45%;
+}
+
+.right{
+    position: absolute;
+    top:25%;
+    width: 45%;
+}
+
+/*Main info section */
+
+.info{
+    margin: 0 45px;
+    background-color:#DDB9A3;
+    padding: 1.5rem 2%;
+}
+
+.info p {
+    font-size: 2.2rem;
+    margin-bottom: 1%;
+    color:white;
+    
+}
+
+.info:hover{
+    font-family: 'Chelsea Market', cursive;
+
+    background-color:#e98b51;
+    color: #DDB9A3;
+}
+
+/*Fire info section */
+
+.fire{
+    width: 18%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1% 0 5% 0;
+}
+
+.fire img{
+    width: 50%;
+}
+
+/*Reservations info section */
+
+.reservations {
+    width: 18%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 0 5% 0;
+}
+
+.reservations  img{
+    width: 50%;
+}
+
+
+
+/*Background image section */
+
+.heroImg{
+    height:40vh;
+    background-image:url('assets/footer_img.jpg');
+    background-size: cover;
+    background-position: top;
+}
