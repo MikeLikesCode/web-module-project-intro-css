@@ -156,6 +156,13 @@ nav a{
     
 }
 
+.info:hover{
+    font-family: 'Chelsea Market', cursive;
+
+    background-color:#e98b51;
+    color: #DDB9A3;
+}
+
 /*Fire info section */
 
 .fire{
